@@ -1,0 +1,16 @@
+[package]
+name = "api-escpos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "2"
+actix-rt = "1"
+bson = "0.14.0"
+serde = "1.0.103"
+futures = "0.3.4"
+env_logger = "0.7"
+actix-cors = "0.2.0"
+serde_json = "1.0"
+escpos-rs = "0.3.0"
+rusb = "0.8.1"

@@ -1,0 +1,14 @@
+POST http://localhost:5050/decodeurl/esteselid HTTP/1.1
+Content-Type: application/json
+
+{
+"text":"holasd // sdf\n//",
+"qr_content":"holasd"
+}
+###
+
+GET http://localhost:5050/devices HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+text=holasd
+qr_content=holasd
